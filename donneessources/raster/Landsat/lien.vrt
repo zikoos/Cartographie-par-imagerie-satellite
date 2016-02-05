@@ -1,0 +1,105 @@
+<VRTDataset rasterXSize="7861" rasterYSize="6941">
+  <SRS>PROJCS["WGS 84 / UTM zone 33N",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4326"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",15],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AUTHORITY["EPSG","32633"]]</SRS>
+  <GeoTransform>  5.3698500000000000e+05,  3.0000000000000000e+01,  0.0000000000000000e+00, -3.7648500000000000e+05,  0.0000000000000000e+00, -3.0000000000000000e+01</GeoTransform>
+  <VRTRasterBand dataType="Byte" band="1">
+    <NoDataValue>0.00000000000000E+00</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/prof/Bureau/CoursTeledetection/Support/Data/Raster/Landsat/LT51810632008173JSA00_B1.TIF</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="7861" RasterYSize="6941" DataType="Byte" BlockXSize="7861" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="7861" ySize="6941" />
+      <DstRect xOff="0" yOff="0" xSize="7861" ySize="6941" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="2">
+    <NoDataValue>0.00000000000000E+00</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/prof/Bureau/CoursTeledetection/Support/Data/Raster/Landsat/LT51810632008173JSA00_B2.TIF</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="7861" RasterYSize="6941" DataType="Byte" BlockXSize="7861" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="7861" ySize="6941" />
+      <DstRect xOff="0" yOff="0" xSize="7861" ySize="6941" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="3">
+    <Metadata>
+      <MDI key="STATISTICS_MAXIMUM">255</MDI>
+      <MDI key="STATISTICS_MEAN">29,481280401742</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">32,490619395265</MDI>
+    </Metadata>
+    <NoDataValue>0.00000000000000E+00</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/prof/Bureau/CoursTeledetection/Support/Data/Raster/Landsat/LT51810632008173JSA00_B3.TIF</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="7861" RasterYSize="6941" DataType="Byte" BlockXSize="7861" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="7861" ySize="6941" />
+      <DstRect xOff="0" yOff="0" xSize="7861" ySize="6941" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="4">
+    <Metadata>
+      <MDI key="STATISTICS_MAXIMUM">255</MDI>
+      <MDI key="STATISTICS_MEAN">43,303600959529</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">33,880847614774</MDI>
+    </Metadata>
+    <NoDataValue>0.00000000000000E+00</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/prof/Bureau/CoursTeledetection/Support/Data/Raster/Landsat/LT51810632008173JSA00_B4.TIF</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="7861" RasterYSize="6941" DataType="Byte" BlockXSize="7861" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="7861" ySize="6941" />
+      <DstRect xOff="0" yOff="0" xSize="7861" ySize="6941" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="5">
+    <Metadata>
+      <MDI key="STATISTICS_MAXIMUM">255</MDI>
+      <MDI key="STATISTICS_MEAN">51,805763534265</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">44,547917730569</MDI>
+    </Metadata>
+    <NoDataValue>0.00000000000000E+00</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/prof/Bureau/CoursTeledetection/Support/Data/Raster/Landsat/LT51810632008173JSA00_B5.TIF</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="7861" RasterYSize="6941" DataType="Byte" BlockXSize="7861" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="7861" ySize="6941" />
+      <DstRect xOff="0" yOff="0" xSize="7861" ySize="6941" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="6">
+    <Metadata>
+      <MDI key="STATISTICS_MAXIMUM">164</MDI>
+      <MDI key="STATISTICS_MEAN">94,463440674578</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">60,002967818389</MDI>
+    </Metadata>
+    <NoDataValue>0.00000000000000E+00</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/prof/Bureau/CoursTeledetection/Support/Data/Raster/Landsat/LT51810632008173JSA00_B6.TIF</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="7861" RasterYSize="6941" DataType="Byte" BlockXSize="7861" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="7861" ySize="6941" />
+      <DstRect xOff="0" yOff="0" xSize="7861" ySize="6941" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="7">
+    <NoDataValue>0.00000000000000E+00</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/prof/Bureau/CoursTeledetection/Support/Data/Raster/Landsat/LT51810632008173JSA00_B7.TIF</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="7861" RasterYSize="6941" DataType="Byte" BlockXSize="7861" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="7861" ySize="6941" />
+      <DstRect xOff="0" yOff="0" xSize="7861" ySize="6941" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>
